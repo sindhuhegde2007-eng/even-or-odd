@@ -1,0 +1,11 @@
+# Sample list of files
+file_list = ["hello.py", "notes.txt", "script.py", "data.csv", "main.py"]
+
+# Count Python programs (files ending with .py)
+python_count = 0
+for file in file_list:
+    if file.endswith(".py"):
+        python_count += 1
+
+# Display the result
+print(f"Number of Python programs in the list: {python_count}")
